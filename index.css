@@ -1,0 +1,40 @@
+/* Style the tab buttons */
+.tablink {
+    background-color: rgb(0, 44, 94);
+    color: white;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: rgb(82, 67, 133);
+  }
+  .header{
+    background-color: rgb(10, 2, 36);
+    color: whitesmoke;
+    float: left;
+    font-family:'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    height: 10%;
+    width: 100%;
+  }
+  #myCanvas{
+    width: 100%;
+    height: 70%;
+    align-content: center;
+
+    border:1px solid #000000; 
+    
+  }
+  
+  
