@@ -9,3 +9,6 @@ PLEASE FOLLOW THE STEPS:
 5. Click on Bubble Sort, this will sort the bar graph in ascending order.
 
 Note: I am working on other sorting algo, so currently other buttons will not be working..:-)
+
+
+Every one is open to contribute.
