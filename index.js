@@ -1,6 +1,7 @@
 
 let arr=[];
 
+//to generate random set of grphs
 function generate_no(){
 
     var canvas = document.getElementById("myCanvas");
@@ -18,11 +19,12 @@ function generate_no(){
     console.log(arr);
 }
 
+//sleep function
 function sleep(milliseconds) {  
     return new Promise(resolve => setTimeout(resolve, milliseconds));  
  }  
 
-
+//bubble sorting functions
  async function bubble_sort(){
     if(arr[0]==undefined){
         window.alert("Please generate graphs first!!!");
@@ -109,6 +111,7 @@ function sleep(milliseconds) {
 //     console.log(arr);
 // } 
 
+//reset the garphs
 function reset(){
     for(var i=0;i<arr.length;i++)
     arr[i]=undefined;
