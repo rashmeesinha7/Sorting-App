@@ -24,6 +24,13 @@ function sleep(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));  
  }  
 
+function merge_sort(){
+    window.alert("Coming soon");
+}
+function quick_sort(){
+    window.alert("Coming soon");
+}
+
 //bubble sorting functions
  async function bubble_sort(){
     if(arr[0]==undefined){
